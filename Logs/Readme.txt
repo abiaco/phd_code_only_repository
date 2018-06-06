@@ -1,0 +1,1 @@
+Directory structure for the different data loggers in the project (see folders "Loggers" and "Python Distractors").

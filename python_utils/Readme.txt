@@ -1,0 +1,1 @@
+This folder contains a few useful python scripts for extracting information from key/mouse logs and scoring some questionnaires.

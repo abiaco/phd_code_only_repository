@@ -1,0 +1,3 @@
+This folder contains various Matlab scripts and functions used for reading, filtering and processing the EEG data recorded during the experiments, as well as extracting the feature sets used for classification.
+
+There are various bits of code commented out for convenience purposes, as a rushed researcher's band-aid way of selecting which parts of the extraction and analysis process should run in a given situation. Could do with a bit of refactoring and perhaps a somewhat sane way of selecting processes to be run, but it does the job for now.

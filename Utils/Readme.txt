@@ -1,0 +1,1 @@
+This folder contains a few utility classes and functions for the EEG and key/mouse loggers used (see folder "Loggers").

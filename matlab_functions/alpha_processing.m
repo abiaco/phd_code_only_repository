@@ -55,7 +55,10 @@ for k=1:(length(files_eyes_closed))
     
     %[full_trial_bandpower, full_trial_dominant_frequency] = alpha_bandpower(full_trial, 1);
     %[trial_split_bandpowers, trial_split_dominant_frequencies] = extract_bandpower(trials, trial_no);
-    [trial_split_coherences] = extract_coherence_matrix(trials, trial_no);
+    %[trial_split_coherences] = extract_coherence_matrix(trials, trial_no);
+    [plv] = extract_plv(trials, 19, trial_no, 2500);
+    
+    % to be continued
     
    % fname = strcat(uname,'_eyes_closed_bandpower.txt');
    % bp_file = fopen(fname, 'w');
